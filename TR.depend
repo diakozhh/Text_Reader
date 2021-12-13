@@ -1,0 +1,76 @@
+# depslib dependency file v1.0
+1638605678 source:e:\work\tr\menu.rc
+	"menu.h"
+
+1637711872 e:\work\tr\defmenu.h
+
+1637929111 source:e:\work\tr\textreader.c
+	"textReader.h"
+
+1637926166 e:\work\tr\textreader.h
+	<stdio.h>
+	<stdlib.h>
+
+1637934500 source:e:\work\tr\windrawer.c
+	"winDrawer.h"
+
+1637928848 e:\work\tr\windrawer.h
+	<windows.h>
+	<tchar.h>
+	<stdlib.h>
+	"textReader.h"
+
+1638017698 source:e:\work\tr\main.c
+	<tchar.h>
+	<windows.h>
+	<stdio.h>
+	"winProcess.h"
+	<stdlib.h>
+	<crtdbg.h>
+
+1637929111 e:\work\tr\winproc.h
+	"defMenu.h"
+	"textReader.h"
+	"scroll.h"
+	"winDrawer.h"
+
+1638018394 e:\work\tr\scroll.h
+	<windows.h>
+	<tchar.h>
+	<stdio.h>
+	<stdlib.h>
+	"textDraw.h"
+
+1638018699 source:e:\work\tr\scroll.c
+	"scroll.h"
+
+1637929111 source:e:\work\tr\winproc.c
+	"winProc.h"
+
+1637935981 source:e:\work\tr\textread.c
+	"textRead.h"
+
+1638018351 e:\work\tr\textread.h
+	<stdio.h>
+	<stdlib.h>
+
+1638019351 e:\work\tr\winprocess.h
+	"menu.h"
+	"textDraw.h"
+	"textRead.h"
+	"scroll.h"
+
+1637711872 e:\work\tr\menu.h
+
+1638019065 e:\work\tr\textdraw.h
+	<windows.h>
+	<tchar.h>
+	<stdlib.h>
+	"textRead.h"
+
+1638019031 source:e:\work\tr\textdraw.c
+	"textDraw.h"
+
+1638019321 source:e:\work\tr\winprocess.c
+	"winProcess.h"
+
